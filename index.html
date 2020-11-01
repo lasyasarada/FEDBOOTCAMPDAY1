@@ -13,8 +13,8 @@
         <div class="row">
             <div class="col">
                 <img class="profile-icon" src="./images/alvies.jpg" alt="alaves Logo" >
-                <span class="profile-name">Alaves</span>
-                <div class="row round-runs">
+                <span class="profile-name" id="team-1-name">Alaves</span>
+                <div class="row round-goals" id="team-1-round-goals">
                     <span class="dot"></span>
                     <span class="dot"></span>
                     <span class="dot"></span>
@@ -25,15 +25,15 @@
             </div>
             <div class="col">
                 <div class="row score">
-                    <span>0</span>
-                    <span class="col">- </span>
-                    <span>0</span>
+                    <span id="team-1-score"></span>
+                    <span>-</span>
+                    <span id="team-2-score"></span>
                 </div>
             </div>
             <div class="col">
                 <img class="profile-icon" src="./images/barcelona.jpg" alt="Barcelona Logo" width="150px" height="150px">
-                <span class="profile-name">Barcelona</span>
-                <div class="row round-runs">
+                <span class="profile-name"  id="team-2-name">Barcelona</span>
+                <div class="row round-goals" id="team-2-round-goals">
                     <span class="dot"></span>
                     <span class="dot"></span>
                     <span class="dot"></span>
@@ -44,16 +44,13 @@
             </div>
         </div>
         <div class="row">
-            <div class="col1">
-                <button id="bat-button">Try Again</button>
-            </div>
-            <div class="col1">
-                <button id="batbutton1">Alaves Strike</button>
-            </div>
+            <button id="bat-button" onclick="handleStrikeButton()"></button>
         </div>
-        <div class="row" >
-            <span class="result">Alaves / Barcelona Wins</span>
-        </div>
+        <div class="row" id="result" hidden></div>   
     </div>
+    
+     <!-- Including JS File -->
+    <script src="./app.js"></script>
 </body>
 </html>
+

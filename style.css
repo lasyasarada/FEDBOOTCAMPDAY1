@@ -54,8 +54,8 @@ span{
     border: 2px solid bisque;
 }
 .dot {
-    height: 20px;;
-    width: 100px;
+    height: 25px;
+    width: 100%;
     background-color: white;
     border-radius: 50%;
     display: inline-block;
@@ -71,30 +71,19 @@ span{
     margin: 0px 5px;
 }
 
-.round-runs{
-    font-size: xx-large;
+.round-goals{
+    font-size: x-large;
     width: 200px;
+    text-align: center;
     justify-content: space-evenly;
 }
 
 #bat-button{
-    font-size: large;
-    width: 100px;
+    font-size: x-large;
+    width: 200px;
     background: linear-gradient(135deg,red,yellow);
     margin-top: 50px;
-    padding: 5px 5px;
-    border-radius: 30px;
-    color: white;
-    border:0px;
-   
-}
-
-#batbutton1{
-    font-size: large;
-    width: 300px;
-    background: linear-gradient(135deg,red,yellow);
-    margin-top: 50px;
-    padding: 5px 5px;;
+    padding: 10px 10px;
     border-radius: 30px;
     color: white;
     border:0px;
@@ -104,4 +93,9 @@ span{
     margin-top: 50px;
     text-transform: uppercase;
     font-size: xx-large;
+}
+
+script{
+    font-size: 300px;
+    font-weight: bold;
 }
